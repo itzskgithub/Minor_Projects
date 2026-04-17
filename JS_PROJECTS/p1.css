@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head a {
+  text-decoration: none; /* removes underline */
+  color: white; 
+}
+
+.head{ 
+    margin: 35px;
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 25px;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;       
+    justify-content: center; 
+    gap: 20px;              
+    
+}
+
+.btn{
+    height: 80px;
+    width: 80px;
+    border-radius: 15%;
+}
+
+#btn_1{
+    background-color: rgb(59, 163, 163);
+}
+
+#btn_2{
+    background-color: rgb(157, 169, 169);
+}
+
+#btn_3{
+    background-color: rgb(153, 255, 0);
+}
+
+#btn_4{
+    background-color: rgb(111, 0, 255);
+}
+
+.para {
+  text-align: center;   /* center the text */
+  margin-top: 15px;     /* space below the buttons */
+  font-size: 18px;
+  font-weight: bold;
+}
