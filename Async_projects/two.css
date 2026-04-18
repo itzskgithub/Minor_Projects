@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    color: antiquewhite;
+    background-color: black;
+    margin-top: 20%;
+}
+h1{
+    font-size: 50px;
+}
